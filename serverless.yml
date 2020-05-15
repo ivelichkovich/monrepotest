@@ -11,9 +11,11 @@
 #
 # Happy Coding!
 
-service: serviced
+service:
+  name: myservice
+
 # app and org for use with dashboard.serverless.com
-app: monorepotest
+app: cookie-infra
 org: ivelichkovichcookiejar
 
 # You can pin your service to only deploy with a specific Serverless version
